@@ -10,4 +10,10 @@ func main() {
 	fmt.Println("hola mundo")
 
 	variables.MuestroEnteros()
+	variables.RestoVariables()
+
+	estado, texto := variables.ConviertoaTexto(950)
+	fmt.Println(estado)
+	fmt.Println(texto)
+
 }
