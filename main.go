@@ -43,7 +43,9 @@ func main() {
 		fmt.Printf("esto es otro software y es %s \n ", os)
 	}
 
-	numero, texto := ejercicios.Ejercicio1("50")
+	// --------------------------
+
+	numero, texto := ejercicios.Ejercicio1("100")
 	fmt.Println(numero)
 	fmt.Println(texto)
 }
