@@ -11,7 +11,7 @@ func Ejercicio1(letra string) (int, string) {
 	// PORQUE ES BACKEND
 
 	if err != nil {
-		return 0, "hubo un error" + err.Error()
+		return 0, "hubo un error " + err.Error()
 	}
 
 	// AMBAS FORMAS DE DECLARAR FUNCIONAN

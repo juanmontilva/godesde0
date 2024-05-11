@@ -45,7 +45,7 @@ func main() {
 
 	// --------------------------
 
-	numero, texto := ejercicios.Ejercicio1("100")
+	numero, texto := ejercicios.Ejercicio1("1f0")
 	fmt.Println(numero)
 	fmt.Println(texto)
 }
