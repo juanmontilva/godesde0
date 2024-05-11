@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/juanmontilva/godesde0/ejercicios"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -41,4 +42,8 @@ func main() {
 	default:
 		fmt.Printf("esto es otro software y es %s \n ", os)
 	}
+
+	numero, texto := ejercicios.Ejercicio1("50")
+	fmt.Println(numero)
+	fmt.Println(texto)
 }
