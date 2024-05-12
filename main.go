@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"github.com/juanmontilva/godesde0/ejercicios"
-	"github.com/juanmontilva/godesde0/teclado"
+	"github.com/juanmontilva/godesde0/iteraciones"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -46,10 +46,15 @@ func main() {
 
 	// --------------------------
 
-	numero, texto := ejercicios.Ejercicio1("1f0")
+	numero, texto := ejercicios.Ejercicio1("100")
 	fmt.Println(numero)
 	fmt.Println(texto)
 
 	// ----------------------------
-	teclado.IngresoNumero()
+	// teclado.IngresoNumero()
+
+	// ------------------------------
+	iteraciones.Iterar()
+
+	ejercicios.PedirNumero()
 }
