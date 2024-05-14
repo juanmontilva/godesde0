@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"github.com/juanmontilva/godesde0/ejercicios"
-	"github.com/juanmontilva/godesde0/iteraciones"
+	"github.com/juanmontilva/godesde0/files"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -54,7 +54,12 @@ func main() {
 	// teclado.IngresoNumero()
 
 	// ------------------------------
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
 
-	ejercicios.PedirNumero()
+	// ejercicios.PedirNumero()
+
+	// files.GrabaTabla()
+
+	// files.SumaTabla()
+	files.LeoArchivo()
 }

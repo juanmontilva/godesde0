@@ -9,8 +9,9 @@ import (
 
 var numeroPrincipal int
 var err error
+var texto string
 
-func PedirNumero() {
+func PedirNumero() string {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -31,12 +32,12 @@ func PedirNumero() {
 
 	for i := 0; i <= 10; i++ {
 		multiplicacion := numeroPrincipal * i
-		fmt.Printf("%d x %d = %d\n", numeroPrincipal, i, multiplicacion)
+		texto += fmt.Sprintf("%d x %d = %d\n", numeroPrincipal, i, multiplicacion)
 	}
 
 	// OJO TAMBIEN FUNCIONA DE ESTA FORMA, ES MAS CORTO
 	// for i := 0; i <= 10; i++ {
 	// 	fmt.Printf("%d x %d = %d \n", numeroPrincipal, i, numeroPrincipal*i)
 	// }
-
+	return texto
 }
