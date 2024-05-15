@@ -6,6 +6,7 @@ import (
 
 	"github.com/juanmontilva/godesde0/ejercicios"
 	"github.com/juanmontilva/godesde0/files"
+	"github.com/juanmontilva/godesde0/funciones"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -62,4 +63,10 @@ func main() {
 
 	// files.SumaTabla()
 	files.LeoArchivo()
+
+	funciones.Calculos()
+
+	funciones.LlamarClosure()
+
+	funciones.Exponencia(2)
 }
