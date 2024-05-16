@@ -5,8 +5,7 @@ import (
 	"runtime"
 
 	"github.com/juanmontilva/godesde0/ejercicios"
-	"github.com/juanmontilva/godesde0/files"
-	"github.com/juanmontilva/godesde0/funciones"
+	"github.com/juanmontilva/godesde0/mapas"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -62,11 +61,19 @@ func main() {
 	// files.GrabaTabla()
 
 	// files.SumaTabla()
-	files.LeoArchivo()
+	// files.LeoArchivo()
 
-	funciones.Calculos()
+	// funciones.Calculos()
 
-	funciones.LlamarClosure()
+	// funciones.LlamarClosure()
 
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+
+	// arreglos_slices.MuestroArreglos()
+
+	// arreglos_slices.MuestroSlice()
+
+	// arreglos_slices.Capacidad()
+
+	mapas.MostrarMapas()
 }
