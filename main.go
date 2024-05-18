@@ -4,8 +4,10 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/juanmontilva/godesde0/ejer_interfaces"
 	"github.com/juanmontilva/godesde0/ejercicios"
 	"github.com/juanmontilva/godesde0/mapas"
+	"github.com/juanmontilva/godesde0/modelos"
 	"github.com/juanmontilva/godesde0/users"
 	"github.com/juanmontilva/godesde0/variables"
 )
@@ -78,4 +80,12 @@ func main() {
 
 	mapas.MostrarMapas()
 	users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)
+
 }
