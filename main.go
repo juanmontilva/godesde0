@@ -6,6 +6,7 @@ import (
 
 	"github.com/juanmontilva/godesde0/ejercicios"
 	"github.com/juanmontilva/godesde0/mapas"
+	"github.com/juanmontilva/godesde0/users"
 	"github.com/juanmontilva/godesde0/variables"
 )
 
@@ -76,4 +77,5 @@ func main() {
 	// arreglos_slices.Capacidad()
 
 	mapas.MostrarMapas()
+	users.AltaUsuario()
 }
