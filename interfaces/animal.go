@@ -2,7 +2,8 @@ package interfaces
 
 type Animal interface {
 	Respirar()
-	Comer()
+	Comer() string
 	EsCarnivoro() bool
 	EstaVivo() bool
+	Especie() string
 }

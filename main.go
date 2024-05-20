@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/juanmontilva/godesde0/defer_panic"
 	"github.com/juanmontilva/godesde0/ejer_interfaces"
 	"github.com/juanmontilva/godesde0/ejercicios"
 	"github.com/juanmontilva/godesde0/mapas"
@@ -87,5 +88,13 @@ func main() {
 
 	Maria := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Maria)
+
+	Leon := new(modelos.Animales)
+	ejer_interfaces.TipoEspecie(Leon)
+
+	Papa := new(modelos.Vegetales)
+	ejer_interfaces.TipoVegetal(Papa)
+
+	defer_panic.EjemploPanic()
 
 }
